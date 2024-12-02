@@ -1,0 +1,99 @@
+{
+  "node": {
+    "00bcebb40af748360d3173b1776dfd0799709ea208": {
+      "workers": {
+        "app/auth/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/invoices/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/projects/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/tasks/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Ftasks.ts%22%2C%5B%5B%22603fa2992adc821d7917706c8e8947a7adccabc39e%22%2C%22createTask%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/users/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/company/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/auth/dashboard/page": "action-browser",
+        "app/auth/invoices/page": "action-browser",
+        "app/auth/projects/page": "action-browser",
+        "app/auth/orders/page": "action-browser",
+        "app/auth/tasks/page": "action-browser",
+        "app/auth/users/page": "action-browser",
+        "app/auth/company/page": "action-browser"
+      }
+    },
+    "605b65ca41235cba380fa2425f8a6273be12d9bf85": {
+      "workers": {
+        "app/auth/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/invoices/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/projects/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/tasks/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Ftasks.ts%22%2C%5B%5B%22603fa2992adc821d7917706c8e8947a7adccabc39e%22%2C%22createTask%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/users/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/auth/company/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/auth/dashboard/page": "action-browser",
+        "app/auth/invoices/page": "action-browser",
+        "app/auth/projects/page": "action-browser",
+        "app/auth/orders/page": "action-browser",
+        "app/auth/tasks/page": "action-browser",
+        "app/auth/users/page": "action-browser",
+        "app/auth/company/page": "action-browser"
+      }
+    },
+    "603fa2992adc821d7917706c8e8947a7adccabc39e": {
+      "workers": {
+        "app/auth/tasks/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Ftasks.ts%22%2C%5B%5B%22603fa2992adc821d7917706c8e8947a7adccabc39e%22%2C%22createTask%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/auth/tasks/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "RczW9s7eP68Drz0+1/EIP/1UpRB1sDVXJKyLIiJQWVs="
+}

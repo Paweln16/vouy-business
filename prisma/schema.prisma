@@ -1,0 +1,98 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("POSTGRES_PRISMA_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id             String        @id @default(uuid())
+  name           String?
+  email          String        @unique
+  password       String
+  organization   Organization? @relation(fields: [organizationId], references: [id])
+  organizationId String?
+  role           String?       @default("USER")
+  tasks          Task[]
+  comments       Comment[]     @relation("UserComments")
+  taggedComments Comment[]     @relation("UserTaggedComments")
+}
+
+model Comment {
+  id         String   @id @default(uuid())
+  title      String?
+  creator    User     @relation("UserComments", fields: [creatorId], references: [id], onDelete: Cascade)
+  creatorId  String
+  project    Project? @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  projectId  String?
+  order      Order?   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  orderId    String?
+  taggedUser User?    @relation("UserTaggedComments", fields: [userId], references: [id])
+  userId     String?
+}
+
+model Organization {
+  id       String    @id @default(uuid())
+  name     String?
+  users    User[]
+  projects Project[]
+  invoices Invoice[]
+  orders   Order[]
+}
+
+model Project {
+  id             String       @id @default(uuid())
+  title          String?
+  deadline       String?
+  details        String?
+  comments       Comment[]
+  status         String       @default("In progress")
+  invoices       Invoice[]
+  netPrice       String?
+  tax            String?
+  price          String?
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  organizationId String
+}
+
+model Order {
+  id             String       @id @default(uuid())
+  title          String?
+  deadline       String?
+  details        String?
+  comments       Comment[]
+  status         String       @default("In progress")
+  netPrice       String?
+  tax            String?
+  price          String?
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  organizationId String
+}
+
+model Task {
+  id       String  @id @default(uuid())
+  title    String?
+  details  String?
+  deadline String?
+  status   String  @default("In progress")
+  user     User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId   String?
+}
+
+model Invoice {
+  id             String        @id @default(uuid())
+  title          String?
+  deadline       String?
+  details        String?
+  status         String        @default("Unpaid")
+  type           String?
+  netPrice       String?
+  tax            String?
+  price          String?
+  organization   Organization? @relation(fields: [organizationId], references: [id])
+  organizationId String?
+  project        Project?      @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  projectId      String?
+}
