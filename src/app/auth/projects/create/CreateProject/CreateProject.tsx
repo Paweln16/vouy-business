@@ -25,7 +25,7 @@ export default function CreateProject() {
   return (
     <div className="h-full w-full">
       <div className="h-full w-full flex">
-        <div className="h-full w-[20%] bg-[#fbfbfb] flex items-center justify-center">
+        <div className="hidden xl:flex h-full w-[20%] bg-[#fbfbfb]  items-center justify-center">
           <div className="w-[60%] flex flex-col items-center gap-[10px]">
             <div className="flex gap-[10px] items-center justify-start w-full">
               <span className="h-[10px] w-[10px] rounded-[20px] bg-[#a2a2a2]"></span>
@@ -53,20 +53,20 @@ export default function CreateProject() {
         <form
           action={createProjectAction}
           id="createProjectForm"
-          className="h-full w-[80%]"
+          className="h-full w-full xl:w-[80%]"
         >
-          <div className="h-full w-full bg-white p-[30px] overflow-hidden">
-            <div className="h-full w-[50%] flex flex-col gap-[30px] ">
+          <div className="h-full w-full bg-white p-[20px] lg:p-[30px] overflow-hidden">
+            <div className="h-full w-full xl:w-[50%] flex flex-col gap-[40px] lg:gap-[30px] ">
               <span className="text-[25px]">General info</span>
-              <div className="w-full h-full flex flex-col gap-[20px] ">
-                <div className="w-full h-[80px] flex gap-[20px]">
+              <div className="w-full h-full flex flex-col gap-[10px] lg:gap-[20px] ">
+                <div className="w-full flex gap-[20px]">
                   <div className="w-[50%] flex flex-col gap-[10px]">
                     <span>Title</span>
                     <input
                       type="text"
                       name="title"
                       required
-                      className="w-full h-full border-[1px] rounded-[10px] pl-[10px] outline-none"
+                      className="w-full h-[30px] lg:h-[45px] border-[1px] rounded-[6px] lg:rounded-[10px] pl-[10px] outline-none"
                     />
                     {state?.errors?.title && <p>{state.errors.title}</p>}
                   </div>
@@ -76,26 +76,26 @@ export default function CreateProject() {
                       type="text"
                       name="deadline"
                       required
-                      className="h-full w-full border-[1px] rounded-[10px] pl-[10px] outline-none"
+                      className="h-[30px] lg:h-[45px] w-full border-[1px] rounded-[6px] lg:rounded-[10px] pl-[10px] outline-none"
                     />
                     {state?.errors?.deadline && <p>{state.errors.deadline}</p>}
                   </div>
                 </div>
-                <div className="w-full h-[80px] flex flex-col gap-[10px]">
+                <div className="w-full flex flex-col gap-[10px]">
                   <span>Details</span>
                   <input
                     type="text"
                     name="details"
                     required
-                    className="h-full w-full border-[1px] rounded-[10px] outline-none pl-[10px]"
+                    className="h-[30px] lg:h-[45px] w-full border-[1px] rounded-[6px] lg:rounded-[10px] outline-none pl-[10px]"
                   />
                   {state?.errors?.details && <p>{state.errors.deadline}</p>}
                 </div>
-                <div className="w-full h-[75px] flex gap-[20px]">
-                  <div className="w-[50%] h-full flex flex-col gap-[10px]">
+                <div className="w-full flex gap-[20px]">
+                  <div className="w-[50%] flex flex-col gap-[10px]">
                     <span>Status</span>
                     <select
-                      className="h-full w-full border-[1px] rounded-[10px] outline-none"
+                      className="h-[30px] lg:h-[45px] w-full border-[1px] rounded-[6px] lg:rounded-[10px] outline-none"
                       name="status"
                     >
                       <option value="Completed">Completed</option>
@@ -105,44 +105,50 @@ export default function CreateProject() {
                     </select>
                   </div>
                 </div>
-                <div className="w-full h-[80px] flex flex-col gap-[10px]">
+                <div className="w-full flex flex-col gap-[10px]">
                   <span>Net price</span>
                   <input
                     type="text"
                     name="netPrice"
                     required
-                    className="h-full w-full border-[1px] rounded-[10px] outline-none pl-[10px]"
+                    className="h-[30px] lg:h-[45px] w-full border-[1px] rounded-[6px] lg:rounded-[10px] outline-none pl-[10px]"
                   />
                   {state?.errors?.netPrice && <p>{state.errors.netPrice}</p>}
                 </div>
-                <div className="w-full h-[80px] flex flex-col gap-[10px]">
+                <div className="w-full flex flex-col gap-[10px]">
                   <span>Tax</span>
                   <input
                     type="text"
                     name="tax"
                     required
-                    className="h-full w-full border-[1px] rounded-[10px] outline-none pl-[10px]"
+                    className="h-[30px] lg:h-[45px] w-full border-[1px] rounded-[6px] lg:rounded-[10px] outline-none pl-[10px]"
                   />
                   {state?.errors?.tax && <p>{state.errors.tax}</p>}
                 </div>
-                <div className="w-full h-[80px] flex flex-col gap-[10px]">
+                <div className="w-full flex flex-col gap-[10px]">
                   <span>Price</span>
                   <input
                     type="text"
                     name="price"
                     required
-                    className="h-full w-full border-[1px] rounded-[10px] outline-none pl-[10px]"
+                    className="h-[30px] lg:h-[45px] w-full border-[1px] rounded-[6px] lg:rounded-[10px] outline-none pl-[10px]"
                   />
                   {state?.errors?.price && <p>{state.errors.price}</p>}
                 </div>
-                <div className="w-full">
+                <div className="w-full flex gap-[10px] mt-[10px]">
                   <button
-                    className="h-[50px] w-[50%] rounded-[10px] text-white bg-[#2d2d2d]"
+                    className="h-[40px] w-[50%] rounded-[10px] text-white bg-[#2d2d2d]"
                     type="submit"
                     form="createProjectForm"
                   >
                     Create Project
                   </button>
+                  <Link
+                    href="/auth/projects"
+                    className="h-[40px] w-[50%] text-[#2d2d2d] flex items-center justify-center"
+                  >
+                    Cancel
+                  </Link>
                 </div>
               </div>
             </div>

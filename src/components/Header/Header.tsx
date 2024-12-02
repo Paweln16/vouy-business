@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import SignOutButton from "../../app/signin/SignOutButton/SignOut";
+import { useState } from "react";
 
 export default function Header() {
   const links = [
@@ -22,6 +23,8 @@ export default function Header() {
     return match ? match[0] : null;
   }
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div className="w-screen h-[100px] bg-white fixed top-0 left-0 flex items-center px-[30px] gap-[100px]">
       <div>
@@ -29,7 +32,7 @@ export default function Header() {
           VOUY
         </Link>
       </div>
-      <div className="flex gap-[25px]">
+      <div className="hidden lg:flex gap-[25px]">
         {links.map((link, index) => {
           return (
             <Link
@@ -47,9 +50,21 @@ export default function Header() {
           );
         })}
       </div>
-      <div className="w-full mb-[15px] flex justify-end">
+      <div className="hidden lg:flex w-full mb-[15px] justify-end">
         <SignOutButton />
       </div>
+      <div
+        className="w-full justify-end flex lg:hidden mr-[10px]"
+        onClick={() => {
+          setIsMenuOpen(!isMenuOpen);
+        }}
+      >
+        Menu
+      </div>
+
+      {isMenuOpen && (
+        <div className=" bg-white top-0 left-0 h-screen w-screen fixed"></div>
+      )}
     </div>
   );
 }

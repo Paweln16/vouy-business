@@ -6,39 +6,19 @@
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
-        "app/auth/invoices/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
         "app/auth/projects/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
-        "app/auth/orders/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/auth/tasks/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Ftasks.ts%22%2C%5B%5B%22603fa2992adc821d7917706c8e8947a7adccabc39e%22%2C%22createTask%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/auth/users/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/auth/company/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+        "app/auth/projects/create/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fprojects.ts%22%2C%5B%5B%2240ea56800d56936bda32cd1cadb6373068db5e5342%22%2C%22deleteProject%22%5D%2C%5B%22602b29eef00cea6ad8ae1c604f5d92bf056537389e%22%2C%22createProject%22%5D%2C%5B%22602c8709fdcf4a6f479ff290d544a00462faa494ee%22%2C%22updateProject%22%5D%2C%5B%226064a694b4af394d5bcc7a30cab7e26e94972d790e%22%2C%22deleteProjectComment%22%5D%2C%5B%2260d7b45ad4e9ffc42bb3cd9d63b735dbafd9b9848b%22%2C%22createProjectComment%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
         "app/auth/dashboard/page": "action-browser",
-        "app/auth/invoices/page": "action-browser",
         "app/auth/projects/page": "action-browser",
-        "app/auth/orders/page": "action-browser",
-        "app/auth/tasks/page": "action-browser",
-        "app/auth/users/page": "action-browser",
-        "app/auth/company/page": "action-browser"
+        "app/auth/projects/create/page": "action-browser"
       }
     },
     "605b65ca41235cba380fa2425f8a6273be12d9bf85": {
@@ -47,50 +27,74 @@
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
-        "app/auth/invoices/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
         "app/auth/projects/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
-        "app/auth/orders/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/auth/tasks/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Ftasks.ts%22%2C%5B%5B%22603fa2992adc821d7917706c8e8947a7adccabc39e%22%2C%22createTask%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/auth/users/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/auth/company/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%5D&__client_imported__=true!",
+        "app/auth/projects/create/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fprojects.ts%22%2C%5B%5B%2240ea56800d56936bda32cd1cadb6373068db5e5342%22%2C%22deleteProject%22%5D%2C%5B%22602b29eef00cea6ad8ae1c604f5d92bf056537389e%22%2C%22createProject%22%5D%2C%5B%22602c8709fdcf4a6f479ff290d544a00462faa494ee%22%2C%22updateProject%22%5D%2C%5B%226064a694b4af394d5bcc7a30cab7e26e94972d790e%22%2C%22deleteProjectComment%22%5D%2C%5B%2260d7b45ad4e9ffc42bb3cd9d63b735dbafd9b9848b%22%2C%22createProjectComment%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
         "app/auth/dashboard/page": "action-browser",
-        "app/auth/invoices/page": "action-browser",
         "app/auth/projects/page": "action-browser",
-        "app/auth/orders/page": "action-browser",
-        "app/auth/tasks/page": "action-browser",
-        "app/auth/users/page": "action-browser",
-        "app/auth/company/page": "action-browser"
+        "app/auth/projects/create/page": "action-browser"
       }
     },
-    "603fa2992adc821d7917706c8e8947a7adccabc39e": {
+    "40ea56800d56936bda32cd1cadb6373068db5e5342": {
       "workers": {
-        "app/auth/tasks/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Ftasks.ts%22%2C%5B%5B%22603fa2992adc821d7917706c8e8947a7adccabc39e%22%2C%22createTask%22%5D%5D%5D%5D&__client_imported__=true!",
+        "app/auth/projects/create/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fprojects.ts%22%2C%5B%5B%2240ea56800d56936bda32cd1cadb6373068db5e5342%22%2C%22deleteProject%22%5D%2C%5B%22602b29eef00cea6ad8ae1c604f5d92bf056537389e%22%2C%22createProject%22%5D%2C%5B%22602c8709fdcf4a6f479ff290d544a00462faa494ee%22%2C%22updateProject%22%5D%2C%5B%226064a694b4af394d5bcc7a30cab7e26e94972d790e%22%2C%22deleteProjectComment%22%5D%2C%5B%2260d7b45ad4e9ffc42bb3cd9d63b735dbafd9b9848b%22%2C%22createProjectComment%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/auth/tasks/page": "action-browser"
+        "app/auth/projects/create/page": "action-browser"
+      }
+    },
+    "602b29eef00cea6ad8ae1c604f5d92bf056537389e": {
+      "workers": {
+        "app/auth/projects/create/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fprojects.ts%22%2C%5B%5B%2240ea56800d56936bda32cd1cadb6373068db5e5342%22%2C%22deleteProject%22%5D%2C%5B%22602b29eef00cea6ad8ae1c604f5d92bf056537389e%22%2C%22createProject%22%5D%2C%5B%22602c8709fdcf4a6f479ff290d544a00462faa494ee%22%2C%22updateProject%22%5D%2C%5B%226064a694b4af394d5bcc7a30cab7e26e94972d790e%22%2C%22deleteProjectComment%22%5D%2C%5B%2260d7b45ad4e9ffc42bb3cd9d63b735dbafd9b9848b%22%2C%22createProjectComment%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/auth/projects/create/page": "action-browser"
+      }
+    },
+    "602c8709fdcf4a6f479ff290d544a00462faa494ee": {
+      "workers": {
+        "app/auth/projects/create/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fprojects.ts%22%2C%5B%5B%2240ea56800d56936bda32cd1cadb6373068db5e5342%22%2C%22deleteProject%22%5D%2C%5B%22602b29eef00cea6ad8ae1c604f5d92bf056537389e%22%2C%22createProject%22%5D%2C%5B%22602c8709fdcf4a6f479ff290d544a00462faa494ee%22%2C%22updateProject%22%5D%2C%5B%226064a694b4af394d5bcc7a30cab7e26e94972d790e%22%2C%22deleteProjectComment%22%5D%2C%5B%2260d7b45ad4e9ffc42bb3cd9d63b735dbafd9b9848b%22%2C%22createProjectComment%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/auth/projects/create/page": "action-browser"
+      }
+    },
+    "6064a694b4af394d5bcc7a30cab7e26e94972d790e": {
+      "workers": {
+        "app/auth/projects/create/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fprojects.ts%22%2C%5B%5B%2240ea56800d56936bda32cd1cadb6373068db5e5342%22%2C%22deleteProject%22%5D%2C%5B%22602b29eef00cea6ad8ae1c604f5d92bf056537389e%22%2C%22createProject%22%5D%2C%5B%22602c8709fdcf4a6f479ff290d544a00462faa494ee%22%2C%22updateProject%22%5D%2C%5B%226064a694b4af394d5bcc7a30cab7e26e94972d790e%22%2C%22deleteProjectComment%22%5D%2C%5B%2260d7b45ad4e9ffc42bb3cd9d63b735dbafd9b9848b%22%2C%22createProjectComment%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/auth/projects/create/page": "action-browser"
+      }
+    },
+    "60d7b45ad4e9ffc42bb3cd9d63b735dbafd9b9848b": {
+      "workers": {
+        "app/auth/projects/create/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200bcebb40af748360d3173b1776dfd0799709ea208%22%2C%22signOut%22%5D%2C%5B%22605b65ca41235cba380fa2425f8a6273be12d9bf85%22%2C%22signIn%22%5D%5D%5D%2C%5B%22%2FUsers%2Fpawelniedzwiedz%2FDesktop%2Fvouy-business%2Fsrc%2Fapp%2Factions%2Fprojects.ts%22%2C%5B%5B%2240ea56800d56936bda32cd1cadb6373068db5e5342%22%2C%22deleteProject%22%5D%2C%5B%22602b29eef00cea6ad8ae1c604f5d92bf056537389e%22%2C%22createProject%22%5D%2C%5B%22602c8709fdcf4a6f479ff290d544a00462faa494ee%22%2C%22updateProject%22%5D%2C%5B%226064a694b4af394d5bcc7a30cab7e26e94972d790e%22%2C%22deleteProjectComment%22%5D%2C%5B%2260d7b45ad4e9ffc42bb3cd9d63b735dbafd9b9848b%22%2C%22createProjectComment%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/auth/projects/create/page": "action-browser"
       }
     }
   },
