@@ -1,0 +1,160 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/auth/projects/create/CreateProject/styles.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_projects__TJPKX {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+}
+.styles_projects__TJPKX .styles_sidebar__rWFf_ {
+  display: hidden;
+  height: 100%;
+  width: 0;
+  background-color: #fbfbfb;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 1280px) {
+  .styles_projects__TJPKX .styles_sidebar__rWFf_ {
+    display: flex;
+    width: 20%;
+  }
+}
+.styles_projects__TJPKX .styles_sidebar__rWFf_ .styles_sidebarContent__dDdeG {
+  width: 60%;
+  overflow: hidden;
+  display: hidden;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (min-width: 1280px) {
+  .styles_projects__TJPKX .styles_sidebar__rWFf_ .styles_sidebarContent__dDdeG {
+    display: flex;
+  }
+}
+.styles_projects__TJPKX .styles_sidebar__rWFf_ .styles_sidebarContent__dDdeG .styles_item___I9E0 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 20px;
+  width: 100%;
+}
+.styles_projects__TJPKX .styles_sidebar__rWFf_ .styles_sidebarContent__dDdeG .styles_item___I9E0 span {
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+  background-color: #2d2d2d;
+}
+.styles_projects__TJPKX .styles_form__RUjOH {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+}
+@media (min-width: 1024px) {
+  .styles_projects__TJPKX .styles_form__RUjOH {
+    padding: 40px;
+  }
+}
+@media (min-width: 1280px) {
+  .styles_projects__TJPKX .styles_form__RUjOH {
+    width: 80%;
+  }
+}
+.styles_projects__TJPKX .styles_form__RUjOH .styles_formContent__685Ll {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+@media (min-width: 1280px) {
+  .styles_projects__TJPKX .styles_form__RUjOH .styles_formContent__685Ll {
+    width: 50%;
+  }
+}
+.styles_projects__TJPKX .styles_form__RUjOH .styles_formContent__685Ll .styles_heading__oLAzq {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.styles_projects__TJPKX .styles_form__RUjOH .styles_formContent__685Ll .styles_row__kImyw {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.styles_projects__TJPKX .styles_form__RUjOH .styles_formContent__685Ll .styles_fullRow__6S_TP {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.styles_projects__TJPKX .styles_form__RUjOH .styles_formContent__685Ll .styles_col__7V3dE {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.styles_projects__TJPKX .styles_form__RUjOH .styles_formContent__685Ll .styles_input__OFIRA {
+  height: 30px;
+  width: full;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px;
+  padding-left: 10px;
+  outline: none;
+}
+@media (min-width: 768px) {
+  .styles_projects__TJPKX .styles_form__RUjOH .styles_formContent__685Ll .styles_input__OFIRA {
+    height: 35px;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .styles_projects__TJPKX .styles_form__RUjOH .styles_formContent__685Ll .styles_input__OFIRA {
+    height: 45px;
+    border-radius: 10px;
+  }
+}
+.styles_projects__TJPKX .styles_form__RUjOH .styles_buttons__FshbW {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  height: 40px;
+}
+@media (min-width: 1280px) {
+  .styles_projects__TJPKX .styles_form__RUjOH .styles_buttons__FshbW {
+    height: 50px;
+  }
+}
+.styles_projects__TJPKX .styles_form__RUjOH .styles_buttons__FshbW .styles_submit__AO_oC {
+  width: 50%;
+  border-radius: 10px;
+  color: white;
+  background-color: #2d2d2d;
+}
+.styles_projects__TJPKX .styles_form__RUjOH .styles_buttons__FshbW .styles_cancel__rC2R9 {
+  width: 50%;
+  color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/Loading/styles.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_loading__o4T_w {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+}

@@ -44,7 +44,34 @@
     "/auth/projects/create/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/auth/projects/create/page.css",
       "static/chunks/app/auth/projects/create/page.js"
+    ],
+    "/auth/invoices/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/auth/invoices/page.js"
+    ],
+    "/api/invoices/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/invoices/route.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ],
+    "/auth/projects/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/auth/projects/[id]/page.css",
+      "static/chunks/app/auth/projects/[id]/page.js"
+    ],
+    "/api/projects/[id]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/projects/[id]/route.js"
     ]
   }
 }
