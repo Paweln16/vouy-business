@@ -1,3 +1,5 @@
+import styles from "./styles.module.scss";
+
 import Projects from "./Projects/Projects";
 import { cookies } from "next/headers";
 import { getProjects } from "@/app/lib/data";
@@ -9,7 +11,7 @@ export default async function Page() {
   const projects = await getProjects(cookie);
 
   return (
-    <div className="h-screen w-screen pt-[100px] px-[20px] overflow-hidden ">
+    <div className={styles.page}>
       <Projects projects={projects} />
     </div>
   );
