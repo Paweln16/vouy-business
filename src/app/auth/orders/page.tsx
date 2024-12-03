@@ -1,6 +1,7 @@
 import { getOrders } from "@/app/lib/data";
 import Orders from "./Orders/Orders";
 import { cookies } from "next/headers";
+import styles from "./styles.module.scss";
 
 export default async function Page() {
   const cookieStorage = await cookies();
@@ -8,7 +9,7 @@ export default async function Page() {
 
   const orders = await getOrders(cookie);
   return (
-    <div className="h-screen w-screen pt-[100px] px-[20px] overflow-hidden ">
+    <div className={styles.page}>
       <Orders orders={orders} />
     </div>
   );

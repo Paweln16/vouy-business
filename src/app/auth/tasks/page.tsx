@@ -1,6 +1,7 @@
 import { cookies } from "next/headers";
 import Tasks from "./Tasks/Tasks";
 import { getTasks } from "@/app/lib/data";
+import styles from "./styles.module.scss";
 
 export default async function Page() {
   const cookieStorage = await cookies();
@@ -9,7 +10,7 @@ export default async function Page() {
   const tasks = await getTasks(cookie);
 
   return (
-    <div className="h-screen w-screen px-[20px] pt-[100px] overflow-hidden">
+    <div className={styles.page}>
       <Tasks tasks={tasks} />
     </div>
   );

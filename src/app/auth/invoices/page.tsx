@@ -1,6 +1,7 @@
 import { cookies } from "next/headers";
 import Invoices from "./Invoices/Invoices";
 import { getInvoices } from "@/app/lib/data";
+import styles from "./styles.module.scss";
 
 export default async function Page() {
   const cookieStorage = await cookies();
@@ -8,7 +9,7 @@ export default async function Page() {
   const invoices = await getInvoices(cookie);
 
   return (
-    <div className="h-screen w-screen pt-[100px] px-[20px] overflow-hidden ">
+    <div className={styles.page}>
       <Invoices invoices={invoices} />
     </div>
   );

@@ -1,6 +1,7 @@
 import { getUsers } from "@/app/lib/data";
 import Users from "./Users/Users";
 import { cookies } from "next/headers";
+import styles from "./styles.module.scss";
 
 export default async function Page() {
   const cookieStorage = await cookies();
@@ -9,7 +10,7 @@ export default async function Page() {
   const users = await getUsers(cookie);
 
   return (
-    <div className="h-screen w-screen pt-[100px] px-[20px] flex flex-col overflow-hidden">
+    <div className={styles.page}>
       <Users users={users} />
     </div>
   );
