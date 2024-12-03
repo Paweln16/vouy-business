@@ -36,21 +36,33 @@
       "static/chunks/main-app.js",
       "static/chunks/app/api/tasks/route.js"
     ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/auth/projects/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/auth/projects/page.css",
       "static/chunks/app/auth/projects/page.js"
+    ],
+    "/auth/orders/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/auth/orders/page.js"
+    ],
+    "/auth/invoices/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/auth/invoices/page.css",
+      "static/chunks/app/auth/invoices/page.js"
+    ],
+    "/api/invoices/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/invoices/route.js"
+    ],
+    "/auth/tasks/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/auth/tasks/page.css",
+      "static/chunks/app/auth/tasks/page.js"
     ]
   }
 }
