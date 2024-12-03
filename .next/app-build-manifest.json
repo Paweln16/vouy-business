@@ -56,7 +56,35 @@
     "/auth/orders/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/auth/orders/page.css",
       "static/chunks/app/auth/orders/page.js"
+    ],
+    "/auth/tasks/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/auth/tasks/page.css",
+      "static/chunks/app/auth/tasks/page.js"
+    ],
+    "/auth/invoices/create/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/auth/invoices/create/page.js"
+    ],
+    "/auth/users/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/auth/users/page.css",
+      "static/chunks/app/auth/users/page.js"
+    ],
+    "/api/users/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/users/route.js"
+    ],
+    "/auth/company/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/auth/company/page.js"
     ]
   }
 }
