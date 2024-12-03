@@ -1,7 +1,6 @@
 "use client";
 import { signIn } from "@/app/actions/auth";
 import Loading from "@/components/Loading/Loading";
-
 import Image from "next/image";
 import { useActionState } from "react";
 import styles from "./styles.module.scss";
