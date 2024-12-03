@@ -41,10 +41,11 @@ export default function Header() {
     },
     exit: {
       y: "-100vh",
+      height: 0,
       transition: {
         type: "tween",
-        duration: 0.3,
-        delay: 0.3,
+        duration: 1,
+        delay: 0.5,
       },
     },
   };
