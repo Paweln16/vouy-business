@@ -662,6 +662,9 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-0 {
+  height: 0px;
+}
 .max-h-\[50\%\] {
   max-height: 50%;
 }
@@ -721,6 +724,9 @@ video {
 }
 .w-screen {
   width: 100vw;
+}
+.w-0 {
+  width: 0px;
 }
 .grow {
   flex-grow: 1;
@@ -971,6 +977,14 @@ input:focus {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:w-\[65\%\] {
+    width: 65%;
   }
 }
 
