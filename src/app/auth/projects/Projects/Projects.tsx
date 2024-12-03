@@ -77,7 +77,11 @@ export default function Projects({ projects }: { projects: ProjectType[] }) {
           )}
 
           <div className={styles.utils}>
-            {width < 1024 && <input type="text" placeholder="&#128270;" />}
+            {width < 1024 && (
+              <button className={styles.openSearch} type="button">
+                &#x1F50D;
+              </button>
+            )}
             {width > 1024 && (
               <input
                 type="text"
@@ -87,9 +91,7 @@ export default function Projects({ projects }: { projects: ProjectType[] }) {
                 placeholder="Search"
               />
             )}
-            {width > 1024 && (
-              <Link href="/auth/projects/create">Create project</Link>
-            )}
+
             <Link href="/auth/projects/create">+</Link>
           </div>
         </div>
