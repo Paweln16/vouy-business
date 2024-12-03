@@ -1,0 +1,78 @@
+$lg: "1024px";
+
+.signin {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+  .left {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: $lg) {
+      width: 35%;
+    }
+
+    .container {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+
+      @media (min-width: $lg) {
+        gap: 100px;
+      }
+
+      .heading {
+        font-size: 25px;
+        font-weight: 600;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .el {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+
+          input {
+            height: 40px;
+            width: 100%;
+            padding-left: 10px;
+            outline: none;
+            border: 1px solid #f1f1f1f1;
+            border-radius: 7px;
+
+            @media (min-width: $lg) {
+              height: 50px;
+            }
+          }
+        }
+
+        .button {
+          display: flex;
+          height: 40px;
+          width: 100%;
+
+          @media (min-width: $lg) {
+            height: 50px;
+          }
+          button {
+            background-color: #2d2d2d;
+            width: 100%;
+            color: white;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}

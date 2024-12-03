@@ -1,0 +1,93 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/Loading/styles.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_loading__o4T_w {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/signin/Signin/styles.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_signin__XsMHt {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.styles_signin__XsMHt .styles_left__RAaWm {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 1024px) {
+  .styles_signin__XsMHt .styles_left__RAaWm {
+    width: 35%;
+  }
+}
+.styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+@media (min-width: 1024px) {
+  .styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE {
+    gap: 100px;
+  }
+}
+.styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE .styles_heading__aZXSy {
+  font-size: 25px;
+  font-weight: 600;
+}
+.styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE form .styles_el__2rcuZ {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE form .styles_el__2rcuZ input {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid rgba(241, 241, 241, 0.9450980392);
+  border-radius: 7px;
+}
+@media (min-width: 1024px) {
+  .styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE form .styles_el__2rcuZ input {
+    height: 50px;
+  }
+}
+.styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE form .styles_button__6fWD2 {
+  display: flex;
+  height: 40px;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE form .styles_button__6fWD2 {
+    height: 50px;
+  }
+}
+.styles_signin__XsMHt .styles_left__RAaWm .styles_container__O68fE form .styles_button__6fWD2 button {
+  background-color: #2d2d2d;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+}

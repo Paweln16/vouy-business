@@ -1,7 +1,7 @@
 {
-  "/auth/invoices/page": "app/auth/invoices/page.js",
+  "/signin/page": "app/signin/page.js",
   "/auth/projects/page": "app/auth/projects/page.js",
+  "/auth/orders/page": "app/auth/orders/page.js",
   "/auth/tasks/page": "app/auth/tasks/page.js",
-  "/auth/users/page": "app/auth/users/page.js",
-  "/auth/orders/page": "app/auth/orders/page.js"
+  "/auth/users/page": "app/auth/users/page.js"
 }
