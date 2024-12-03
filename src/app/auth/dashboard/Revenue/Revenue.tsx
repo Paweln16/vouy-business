@@ -32,8 +32,8 @@ export default function Revenue() {
   });
 
   return (
-    <div className="h-[50%] w-full border-[1px] rounded-[10px] p-[10px]">
-      <AgCharts className="h-full w-full" options={options} />
+    <div className="h-[50%] w-full border-[1px] rounded-[10px] p-[10px] z-0">
+      <AgCharts className="h-full w-full z-1" options={options} />
     </div>
   );
 }
