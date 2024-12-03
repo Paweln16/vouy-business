@@ -25,7 +25,7 @@ export default function Header() {
     return match ? match[0] : null;
   }
 
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const modalVariants = {
     hidden: {
